@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 20, 2016, 6:12:40 PM
+    Author     : andresmrg
+*/
+
+body {
+background-color: white;
+color: black;
+font-size: 20px;
+font-family: "Lucida Grande", Verdana, ➝ Arial, Helvetica, sans-serif;
+}
+h1, th {
+font-family: Georgia, "Times New Roman", ➝Times, serif;
+}
+h1 {
+font-size: 28px;
+}
+table {
+border-collapse: collapse;
+}
+th, td {
+padding: 10px;
+border: 2px #666 solid; text-align: center; width: 20%;
+}
+#free, .pickedBG { background-color: #f66;
+}
+.winningBG { background-image:url(images/redFlash.gif); }
