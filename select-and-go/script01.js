@@ -3,8 +3,8 @@ window.onload = initForm;
 window.onunload = function() {};
 
 function initForm() {
-	document.getElementById("newLocation").selectedIndex = 0;
-	document.getElementById("newLocation").onchange = jumpPage;
+	document.getElementById("newLocation").selectedIndex = 0; // Set the first index to value 0
+	document.getElementById("newLocation").onchange = jumpPage; // Activate Function below when the dropdown changes
 }
 
 function jumpPage() {
